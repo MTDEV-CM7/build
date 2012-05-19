@@ -24,7 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/board/generic/device.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=OnTheHunt.ogg \
-    ro.config.alarm_alert=Alarm_Classic.ogg
+    ro.config.alarm_alert=Alarm_Rooster_02.ogg \
+    ro.config.play.bootsound=1
 
 PRODUCT_PACKAGES += \
     libreference-ril
