@@ -25,6 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/board/generic/device.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=daddyringringringtone.ogg \
     ro.config.notification_sound=OnTheHunt.ogg \
     ro.config.alarm_alert=Alarm_Rooster_02.ogg \
     ro.config.play.bootsound=1
